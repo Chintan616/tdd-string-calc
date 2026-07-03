@@ -43,5 +43,13 @@ public class StringCalculatorTest {
 
         assertEquals(6 , calculator.add("1\n2,3"));
     }
+
+    @Test
+    public void support_different_delimeters(){
+        //instance
+        StringCalculator calculator = new StringCalculator();
+
+        assertEquals(6, calculator.add("//;1;2;3"));
+    }
 }
 
