@@ -16,8 +16,16 @@ public class StringCalculatorTest {
     public void single_number_should_return_number(){
         //instance
         StringCalculator calculator = new StringCalculator();
-        
+
         assertEquals(2,calculator.add("2"));
+    }
+
+    @Test
+    public void two_comma_separated_numbers_should_return_sum(){
+        //instance
+        StringCalculator calculator = new StringCalculator();
+
+        assertEquals(3, calculator.add("1,2")); 
     }
 }
 
