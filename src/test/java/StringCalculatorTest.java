@@ -27,5 +27,13 @@ public class StringCalculatorTest {
 
         assertEquals(3, calculator.add("1,2")); 
     }
+
+    @Test
+    public void unknown_amount_of_numbers_should_return_sum(){
+        //instance
+        StringCalculator calculator = new StringCalculator();
+
+        assertEquals(6, calculator.add("1,2,3"));  
+    }
 }
 
