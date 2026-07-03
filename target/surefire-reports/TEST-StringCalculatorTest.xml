@@ -12,9 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/chintankasundra/Documents/tdd-learning/target/surefire/surefirebooter-20260703222127374_3.jar /Users/chintankasundra/Documents/tdd-learning/target/surefire 2026-07-03T22-21-27_341-jvmRun1 surefire-20260703222127374_1tmp surefire_0-20260703222127374_2tmp"/>
+    <property name="sun.java.command" value="/Users/chintankasundra/Documents/tdd-learning/target/surefire/surefirebooter-20260703222545584_3.jar /Users/chintankasundra/Documents/tdd-learning/target/surefire 2026-07-03T22-25-45_552-jvmRun1 surefire-20260703222545584_1tmp surefire_0-20260703222545584_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="StringCalculatorTest#single_number_should_return_number"/>
     <property name="surefire.test.class.path" value="/Users/chintankasundra/Documents/tdd-learning/target/test-classes:/Users/chintankasundra/Documents/tdd-learning/target/classes:/Users/chintankasundra/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/chintankasundra/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/chintankasundra/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/chintankasundra/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/chintankasundra/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/Users/chintankasundra/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/chintankasundra"/>
@@ -29,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/chintankasundra/Documents/tdd-learning/target/surefire/surefirebooter-20260703222127374_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/chintankasundra/Documents/tdd-learning/target/surefire/surefirebooter-20260703222545584_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.3+9-LTS-195"/>
@@ -58,5 +59,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="empty_string_should_return_zero" classname="StringCalculatorTest" time="0.007"/>
+  <testcase name="single_number_should_return_number" classname="StringCalculatorTest" time="0.008"/>
 </testsuite>

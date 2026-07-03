@@ -11,5 +11,13 @@ public class StringCalculatorTest {
 
         assertEquals(0,calculator.add(""));
     }
+
+    @Test
+    public void single_number_should_return_number(){
+        //instance
+        StringCalculator calculator = new StringCalculator();
+        
+        assertEquals(2,calculator.add("2"));
+    }
 }
 
